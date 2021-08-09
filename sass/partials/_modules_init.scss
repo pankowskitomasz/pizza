@@ -28,6 +28,9 @@
 }
 .text{
     &-shadow{
+        &-light{
+            text-shadow: $text__shadow--light;    
+        }
         text-shadow: $text__shadow;
     }
 }

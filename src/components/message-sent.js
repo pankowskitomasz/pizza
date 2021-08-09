@@ -14,13 +14,13 @@ class MessageSent extends Component {
             <Container fluid className={"contact-form align-items-center p-0 py-5 bg-white d-flex minh-50vh " + this.props.classExt}>
                 <Row className="mx-auto text-center w-100">
                     <Col xs={10} md={6} className="mx-auto p-0 d-flex align-items-center">
-                        <Card className="mx-auto bg-dark opacity-8 border-dark-warning shadow">
+                        <Card className="mx-auto bg-warning opacity-8 border-dark-warning shadow opacity-9">
                             <Card.Header className="text-warning text-start border-dark-warning">
                                 Message sent!
                             </Card.Header>
-                            <Card.Body className="text-center text-warning p-5">
+                            <Card.Body className="text-center text-dark-yellow p-5">
                                 <p className="lead">Message was sent!</p>
-                                <Button variant={"outline-warning rounded-pill"} onClick={this.hndBack.bind(this)}>
+                                <Button variant={"outline-warning rounded-pill border-dark-yellow text-dark-yellow"} onClick={this.hndBack.bind(this)}>
                                     back to Form
                                 </Button>
                             </Card.Body>

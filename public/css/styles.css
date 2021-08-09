@@ -9,6 +9,23 @@ body, html {
   width: 100%;
 }
 
+/* line 2, ../../sass/partials/_h.scss */
+.h-25vh {
+  height: 25vh;
+}
+/* line 5, ../../sass/partials/_h.scss */
+.h-50vh {
+  height: 50vh;
+}
+/* line 8, ../../sass/partials/_h.scss */
+.h-75vh {
+  height: 75vh;
+}
+/* line 11, ../../sass/partials/_h.scss */
+.h-100vh {
+  height: 100vh;
+}
+
 /* line 2, ../../sass/partials/_minh.scss */
 .minh-25vh {
   min-height: 25vh;
@@ -26,7 +43,86 @@ body, html {
   min-height: 100vh;
 }
 
+/* line 2, ../../sass/partials/_maxh.scss */
+.maxh-200 {
+  max-height: 200px;
+}
+/* line 5, ../../sass/partials/_maxh.scss */
+.maxh-300 {
+  max-height: 300px;
+}
+/* line 8, ../../sass/partials/_maxh.scss */
+.maxh-400 {
+  max-height: 400px;
+}
+/* line 11, ../../sass/partials/_maxh.scss */
+.maxh-500 {
+  max-height: 500px;
+}
+/* line 14, ../../sass/partials/_maxh.scss */
+.maxh-600 {
+  max-height: 600px;
+}
+/* line 17, ../../sass/partials/_maxh.scss */
+.maxh-700 {
+  max-height: 700px;
+}
+
 /* line 2, ../../sass/partials/_modules.scss */
+.bg-about {
+  background-attachment: scroll;
+  background-image: url(../img/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 5, ../../sass/partials/_modules.scss */
+.bg-basket {
+  background-attachment: scroll;
+  background-image: url(../img/basket.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 8, ../../sass/partials/_modules.scss */
+.bg-dark-yellow {
+  background-color: #483500 !important;
+}
+/* line 11, ../../sass/partials/_modules.scss */
+.bg-home {
+  background-attachment: scroll;
+  background-image: url(../img/home.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 14, ../../sass/partials/_modules.scss */
+.bg-menu {
+  background-attachment: scroll;
+  background-image: url(../img/menu.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 18, ../../sass/partials/_modules.scss */
+.bg-whats-new {
+  background-attachment: scroll;
+  background-image: url(../img/whatsnew.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 23, ../../sass/partials/_modules.scss */
+.border-black {
+  border-color: #000 !important;
+}
+/* line 26, ../../sass/partials/_modules.scss */
+.border-dark-yellow {
+  border-color: #483500 !important;
+}
+
+/* line 31, ../../sass/partials/_modules.scss */
 .contact-bg {
   background-attachment: fixed;
   background-image: url(../img/coming.jpg);
@@ -35,7 +131,7 @@ body, html {
   background-size: cover;
 }
 
-/* line 7, ../../sass/partials/_modules.scss */
+/* line 36, ../../sass/partials/_modules.scss */
 .login-form, .register-form {
   background-attachment: fixed;
   background-image: url(../img/coming.jpg);
@@ -44,16 +140,29 @@ body, html {
   background-size: cover;
 }
 
-/* line 12, ../../sass/partials/_modules.scss */
+/* line 41, ../../sass/partials/_modules.scss */
+.opacity-6 {
+  opacity: 0.6;
+}
+/* line 44, ../../sass/partials/_modules.scss */
+.opacity-7 {
+  opacity: 0.7;
+}
+/* line 47, ../../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
-/* line 15, ../../sass/partials/_modules.scss */
+/* line 50, ../../sass/partials/_modules.scss */
 .opacity-9 {
   opacity: 0.9;
 }
 
-/* line 24, ../../sass/partials/_modules.scss */
+/* line 60, ../../sass/partials/_modules.scss */
+.text-dark-yellow {
+  color: #483500 !important;
+}
+
+/* line 64, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
@@ -108,16 +217,20 @@ textarea {
 .text-shadow {
   text-shadow: 1px 1px 4px #000;
 }
+/* line 31, ../../sass/partials/_modules_init.scss */
+.text-shadow-light {
+  text-shadow: 1px 1px 2px #1a1a1a;
+}
 
-/* line 36, ../../sass/partials/_modules_init.scss */
+/* line 39, ../../sass/partials/_modules_init.scss */
 .z-index-0 {
   z-index: 0;
 }
-/* line 39, ../../sass/partials/_modules_init.scss */
+/* line 42, ../../sass/partials/_modules_init.scss */
 .z-index-10 {
   z-index: 10;
 }
-/* line 42, ../../sass/partials/_modules_init.scss */
+/* line 45, ../../sass/partials/_modules_init.scss */
 .z-index-100 {
   z-index: 100;
 }
