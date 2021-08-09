@@ -1,3 +1,32 @@
+.bg{
+    &-about{        
+        @include set-background($bg__about-img,0,"center","cover","scroll");
+    }
+    &-basket{        
+        @include set-background($bg__basket-img,0,"center","cover","scroll");
+    }
+    &-dark-yellow{
+        background-color: $color__dark-yellow!important;
+    }
+    &-home{
+        @include set-background($bg__home-img,0,"top center","cover","scroll");
+    }
+    &-menu{        
+        @include set-background($bg__menu-img,0,"center","cover","scroll");
+
+    }
+    &-whats-new{    
+        @include set-background($bg__whats-new,0,"right center","cover","scroll");
+    }
+}
+.border{
+    &-black{
+        border-color: $color__black!important;
+    }
+    &-dark-yellow{
+        border-color: $color__dark-yellow!important;
+    }
+}
 .contact{
     &-bg{
         @include set-background($bg__contact-img,0,"top center","cover","fixed");
@@ -9,6 +38,12 @@
     }
 }
 .opacity{
+    &-6{
+        opacity: 0.6;
+    }
+    &-7{
+        opacity: 0.7;
+    }
     &-8{
         opacity: 0.8;
     }
@@ -19,6 +54,11 @@
 .register{
     &-form{
         @extend .login-form;
+    }
+}
+.text{
+    &-dark-yellow{
+        color: $color__dark-yellow!important;
     }
 }
 textarea{

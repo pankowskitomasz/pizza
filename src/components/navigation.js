@@ -13,15 +13,15 @@ class Navigation extends Component{
             </Nav.Item>;
         });
         return(
-            <Navbar bg="transparent" variant="light" expand="md" className="position-absolute px-2 w-100 z-index-100" collapseOnSelect>
+            <Navbar bg="transparent" variant="light" expand="md" className="position-absolute w-100 z-index-100 opacity-9" collapseOnSelect>
                 <Navbar.Brand>
                     <Link to="/" className="font-weight-bold font-logo decoration-none text-green">
-                        <img src="img/navbar_logo.png" alt="logo" className="me-2"/>                        
+                        <img src="img/navbar_logo.png" alt="logo" className="ps-2"/>                        
                     </Link>
                 </Navbar.Brand>
-                <Navbar.Toggle className="border-light"/>
+                <Navbar.Toggle className="border-light me-2"/>
                 <Navbar.Collapse>
-                    <Nav className="ms-auto text-end px-3">
+                    <Nav className="ms-auto text-end px-3 bg-warning border border-dark">
                         {menuContent}
                     </Nav>
                 </Navbar.Collapse>
