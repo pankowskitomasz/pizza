@@ -8,19 +8,19 @@ class WhatsNew extends Component{
         return(
             <Container fluid className="h-50 maxh-400 bg-whats-new d-flex align-items-center bg-dark py-4 border-bottom border-black">
                 <Row className="mx-4 w-100">
-                    <Col xs={12} sm={8} md={6} className="text-white text-shadow opacity-9">
-                        <h3 className="display-5">
+                    <Col xs={12} sm={8} md={6} className="text-white opacity-9">
+                        <h3 className="display-5 text-shadow">
                             Whats new?
                         </h3>
-                        <div className="bg-warning p-3">
-                            <div className="border-start border-light px-2 my-2">
+                        <div className="bg-warning p-3 text-dark">
+                            <div className="border-start border-dark px-2 my-2">
                                 New capriciosa pizza!
                             </div>
-                            <div className="border-start border-light px-2 my-2">
+                            <div className="border-start border-dark px-2 my-2">
                                 New double meat pizza!
                             </div>
                         </div>
-                        <div className="border-start border-light ms-3 px-2 my-2">
+                        <div className="border-start text-shadow border-light ms-3 px-2 my-2">
                             Vega pizza!
                         </div>
                     </Col>
