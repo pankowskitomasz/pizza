@@ -57,7 +57,7 @@ class Footer extends Component{
                         </Col>
                         <Col xs={12} className="mx-auto text-shadow border-top border-dark mt-3">
                             <small className="my-0 text-white opacity-8">
-                                Copyright &copy; 2021 Tomasz Pankowski. All rights reserved. 
+                                Copyright &copy; 2021-2022 Tomasz Pankowski. All rights reserved. 
                                 <Link to={this.props.privacyLink.href} className="text-white text-decoration-none ms-1">
                                      {this.props.privacyLink.name}
                                 </Link>
